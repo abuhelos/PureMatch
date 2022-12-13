@@ -34,13 +34,17 @@ const HeaderContainer = styled.header`
     flex-direction: row;
     align-items: center;
     height: 96px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 950px;
+    max-width: 1375px;
 `
 const Logo = styled.div`
     display: flex;
     alignContent: center;
     justifyContent: center;
     margin-right: auto;
-    margin-left: 20px;
 
     font-weight: 500;
     color: #0089FF;
@@ -50,6 +54,7 @@ const Navigation = styled.ol`
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    margin-right: 50px;
 `
 const ListItem = styled.li`
     padding: 5px;
@@ -62,7 +67,6 @@ const Button = styled.button`
     height: 36px;
     border-radius: 8px;
     padding: 8px 16px 8px 16px;
-    margin-right: 20px;
     &:hover {
         cursor: pointer;
     }
