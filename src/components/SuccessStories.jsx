@@ -10,7 +10,7 @@ import BlueCircle from '../assets/BlueCircle.svg'
 
 export default function SuccessStories() {
     return(
-        <SectionContainer>
+        <SectionContainer id='success-stories'>
             <TopFlex>
                 <SectionTitle>
                     <h3 style={{color: '#0089FF', fontWeight: '700'}}>SUCCESS STORIES</h3>

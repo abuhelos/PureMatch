@@ -3,6 +3,9 @@ import styled from 'styled-components'
 import Header from '../components/Header'
 import MainSection from '../components/MainSection'
 import SuccessStories from '../components/SuccessStories'
+import Blog from '../components/Blog'
+import StayConnected from '../components/StayConnected'
+import Footer from '../components/Footer'
 
 export default function LandingPage() {
     return (
@@ -11,6 +14,9 @@ export default function LandingPage() {
                 <Header/>
                 <MainSection/>
                 <SuccessStories/>
+                <Blog/>
+                <StayConnected/>
+                <Footer/>
             </PageContainer>
         </div>
     )

@@ -12,14 +12,16 @@ export default function Header() {
             </Logo>
             <div>
                 <Navigation>
-                    <ListItem color='#93959D'>Home</ListItem>
-                    <ListItem color='#93959D'>About</ListItem>
-                    <ListItem color='#93959D'>Blog</ListItem>
-                    <ListItem color='#93959D'>Contact</ListItem>
-                    <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
-                        <img src={Coins} height='16px' width='16px'/>
-                        <ListItem color='#FF004A'>Donate</ListItem>
-                    </div>
+                    <a href='#main-section'><ListItem color='#93959D'>Home</ListItem></a>
+                    <a href='#success-stories'><ListItem color='#93959D'>About</ListItem></a>
+                    <a href='#blog'><ListItem color='#93959D'>Blog</ListItem></a>
+                    <a href='#stay-connected'><ListItem color='#93959D'>Contact</ListItem></a>
+                    <a href='#'> 
+                        <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+                            <img src={Coins} height='16px' width='16px'/>
+                            <ListItem color='#FF004A'>Donate</ListItem>
+                        </div>
+                    </a>
                     <Button>
                         Get PureMatch
                     </Button>

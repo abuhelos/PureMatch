@@ -41,7 +41,7 @@ export default function MainSection() {
     },[inProp])
 
     return(
-        <div style={{maxWidth: '950px', marginLeft: 'auto', marginRight: 'auto'}}>
+        <div id='main-section' style={{maxWidth: '950px', marginLeft: 'auto', marginRight: 'auto'}}>
             <SectionContainer style={{marginBottom: '40px'}}>
                 <TextContainer>
                     <h2 style={{fontWeight: '700', fontSize: '56px',color: '#0089FF', marginBottom: '15px'}}>
@@ -53,8 +53,8 @@ export default function MainSection() {
                     </h4>
                     <Button>Support the app</Button>
                     <div style={{marginTop: '25px'}}>
-                        <ImageButton src={Apple} height='48px' width='166.15px'/>
-                        <ImageButton style={{marginLeft: '15px'}}src={Google} height='48px' width='166.15px'/>
+                        <a href='https://apps.apple.com/us/app/pure-match/id1506240839'><ImageButton src={Apple} height='48px' width='166.15px'/></a>
+                        <a href='https://play.google.com/store/apps/details?id=org.purematch.purematch'><ImageButton style={{marginLeft: '15px'}}src={Google} height='48px' width='166.15px'/></a>
                     </div>
                 </TextContainer>
                 <Transition nodeRef={nodeRef} in={!inProp} timeout={5000}>
